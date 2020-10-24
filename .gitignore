@@ -1,5 +1,15 @@
-.idea/
+### IDE ###
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+*.iml
 
+### Go ###
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -7,8 +17,9 @@
 *.so
 *.dylib
 
-# Test binary, built with `go test -c`
-*.test
+coverage.txt
+coverage_unit.txt
+coverage_integration.txt
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+# dependencies
+vendor
