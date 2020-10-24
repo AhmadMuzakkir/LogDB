@@ -5,7 +5,7 @@ LogDB is a very simple and dumb key-value database, backed by a single, append-o
 * Has in-memory index.
 * When an entry is deleted, it will be marked as tombstone. The value is not written.
 
-LogDB's purpose is to demonstrate how to implement a basic key-value database.
+The purpose of this project is to demonstrate how to implement a basic key-value database.
 
 ---
 
